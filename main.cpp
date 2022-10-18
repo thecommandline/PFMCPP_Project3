@@ -472,55 +472,17 @@ After you have MOVED your 10 UDTs, send me a DM with your pull request link.
 I will review the pseudo-code that you have written.
 */
 
-struct Guitar
-{
-    // TODO
-};
+Guitar
+Guitar Amp
+Midi controller
+Radio
+Print Head
+Print Bed
+Control Board
+Stepper Motor 
+Control Display
+3D Printer
 
-struct GuitarAmp
-{
-    // TODO
-};
-
-struct MIDIController
-{
-    // TODO
-};
-
-struct Radio
-{
-    // TODO
-};
-
-struct PrintHead
-{
-    // TODO 
-};
-
-struct PrintBed
-{
-    // TODO 
-};
-
-struct ControlBoard
-{
-    //TODO 
-};
-
-struct StepperMotor 
-{
-    // TODO 
-};
-
-struct ControlDisplay
-{
-    // TODO 
-};
-
-struct Generic3DPrinter
-{
-    // TODO 
-};
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
