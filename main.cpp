@@ -53,51 +53,51 @@ Sub Object 1: Steering Wheel
     Name 4 things you'll find on the:    Steering Wheel
         1) paddle shifters
         2) 'cruise control' controls
-        3) 
-        4) 
+        3) Hands free phone controls
+        4) Horn
     Name 2 things you can do with the:   Steering Wheel
-        1) adjust cruise control settings.
-        2)
+        1) Adjust cruise control settings.
+        2) Sound the horn
         
 Sub Object 2: Instrument Cluster
     Name 4 things you'll find on the:   Instrument Cluster
-        1)
-        2)
-        3)
-        4)
+        1) Speedometer
+        2) Tachometer 
+        3) Fuel gauge
+        4) Trip odometer
     Name 3 things you can do with the:   Instrument Cluster
-        1)
-        2)
-        3)
+        1) Reset trip odometer
+        2) Read odometer 
+        3) Read tachometer
     
 Sub Object 3: Environment Controls
     Name 3 things you'll find on the:    Environment Controls
-        1)
-        2)
-        3)
+        1) temperature control
+        2) defroster control
+        3) ventilation control
     Name 3 things you can do with the:   Environment Controls
-        1)
-        2)
-        3)
+        1) adjust temperature
+        2) enable defroster 
+        3) set ventilation fan speed
 
 Sub Object 4: Infotainment System
     Name 3 things you'll find on the:    Infotainment System
-        1)
-        2)
-        3)
+        1) Navigation system 
+        2) Music app
+        3) Weather app
     Name 3 things you can do with the:   Infotainment System
-        1)
-        2)
-        3)
+        1) Set waypoint
+        2) Stream music
+        3) Check weather
 
 Sub Object 5: Seat 
     Name 3 things you'll find on the:    Seat
-        1)
-        2)
-        3)
+        1) Position adjustment controls
+        2) Seat heater
+        3) Headd rest
     Name 2 things you can do with the:   Seat
-        1)
-        2)
+        1) adjust seat position 
+        2) adjust headrest 
 */
 
 /*
@@ -155,59 +155,59 @@ Part 1b Assignment: 1 Step
 */
 
 /*
-Thing 1)
+Thing 1) Guitar
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Number of strings (int)
+    2) Tone control setting (float)
+    3) Scale length (float)
+    4) Pickup height (float)
+    5) Volume control setting (float)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Tune string 
+    2) Adjust tone
+    3) Adjust volume
  */
 
 /*
-Thing 2)
+Thing 2) Guitar Amp 
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Volume control (float)
+    2) Treble control (float)
+    3) Mids control (float)
+    4) Bass control (float)
+    5) Drive control (float)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Set treble control 
+    2) Set mids control
+    3) Set bass control 
  */
 
 /*
-Thing 3)
+Thing 3) Midi controller
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Number of keys (int)
+    2) Number of drum pads (int)
+    3) Number of knobs (int)
+    4) Number of sliders (int)
+    5) Midi channel (int)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Send KeyDown
+    2) Send KeyUp 
+    3) Send knob position change
  */
 
 /*
-Thing 4)
+Thing 4) Radio
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Number of VFOs (int)
+    2) Sensitivity (float)
+    3) Output wattage (float)
+    4) Frequency range (float)
+    5) RF gain (float)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) set frequency 
+    2) set output wattage
+    3) set RF gain 
  */
 
  /*
@@ -280,17 +280,17 @@ Define an object that is made of 5 sub-objects.
 */
 
 /*
-Thing 10)
+Thing 10) 3D Printer 
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Print head
+    2) Print bed
+    3) Control board
+    4) Stepper motor
+    5) Control display 
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Set XYZ position  
+    2) Set print head temperture 
+    3) Set print bed temperture 
  */
 
 /*
@@ -385,73 +385,73 @@ Step 3 is written below UDTs 5 - 9
 */
 
 /*
-Thing 5)
+Thing 5) Print Head
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Filament drive gear speed (float)
+    2) Temperture  (float)
+    3) Termocoupler reading (float)
+    4) Nozzle size (float)
+    5) Fan speed (float)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Adjust temperture
+    2) Adjust fan speed
+    3) Extrude filament
  */
 
 /*
-Thing 6)
+Thing 6) Print Bed
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Print bed temperture (float)
+    2) Print bed position (float)
+    3) Print bed material (std::string)
+    4) Print bed leveler adjustments
+    5) Surface type (std::string)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Adjust position 
+    2) Adjust heat 
+    3) Auto level 
  */
 
 /*
-Thing 7)
+Thing 7) Control Board 
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Number of motor controllers (int)
+    2) CPU Frequency (int)
+    3) Memory (int)
+    4) Number of fan controllers (int)
+    5) USB connection type (std::string)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Adjust X motor
+    2) Adjust Y motor
+    3) Adjust Z motor 
  */
 
 /*
-Thing 8)
+Thing 8) Stepper Motor 
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) holding torque (float)
+    2) Rated current (float)
+    3) Step Angle (float)
+    4) Shaft diameter (float)
+    5) Voltage (float)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Step clockwise
+    2) Step anticlockwise
+    3) Hold position 
  */
 
 /*
-Thing 9)
+Thing 9) Control Display 
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Brightness (int)
+    2) Number of characters (int) 
+    3) Contrast (int)
+    4) Cursor line (int) 
+    5) Control knob direction (std::string)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Adjust brightness
+    2) Adjust contrast 
+    3) Move cursor 
  */
 
 /*
@@ -472,7 +472,16 @@ After you have MOVED your 10 UDTs, send me a DM with your pull request link.
 I will review the pseudo-code that you have written.
 */
 
-
+Guitar
+Guitar Amp
+Midi controller
+Radio
+Print Head
+Print Bed
+Control Board
+Stepper Motor 
+Control Display
+3D Printer
 
 
 /*
